@@ -1,15 +1,27 @@
-<h1 align="center">Hi 👋, I'm Leandro</h1>
-<h3 align="center">A passionate frontend developer from Argentina</h3>
+# Luigi - Auténtica Comida Italiana 🍕
 
-- 🔭 I’m currently working on [Luigi](https://leandrogiuliani.github.io/luigi/)
+Landing page moderna y responsiva diseñada para un restaurante de comida italiana, enfocada en una experiencia de usuario fluida y una gestión eficiente de datos.
 
-- 🌱 I’m currently learning **HTML and CSS**
+## 🚀 Características Principales
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/leandrogiuliani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="leandrogiuliani" height="30" width="40" /></a>
-<a href="https://discord.gg/leangiuliani_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="leangiuliani_" height="30" width="40" /></a>
-</p>
+*   **Diseño Responsivo:** Adaptación completa a dispositivos móviles y escritorio usando Bootstrap 5 y CSS Grid.
+*   **Menú Dinámico:** Renderizado automático de productos (Pizzas, Pastas, Hamburguesas) mediante JavaScript, consumiendo datos desde un array de objetos (simulando una base de datos).
+*   **Header Inteligente:** Menú con efecto de ocultamiento automático al hacer scroll para maximizar el espacio visual.
+*   **Interactividad:** Validaciones de formulario en tiempo real y retroalimentación visual al usuario.
+*   **Animaciones Suaves:** Implementación de *Intersection Observer* para la aparición gradual de secciones al hacer scroll.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+## 🛠 Tecnologías Utilizadas
+
+*   **HTML5:** Estructura semántica.
+*   **CSS3:** Estilos personalizados, animaciones y uso de variables.
+*   **Bootstrap 5:** Framework para el layout y componentes.
+*   **JavaScript (ES6+):** Lógica del sitio, validaciones y manipulación dinámica del DOM.
+
+## 📂 Estructura del Proyecto
+
+```text
+/
+├── css/          # Estilos personalizados
+├── js/           # Lógica y manejo de datos (main.js)
+├── img/          # Recursos gráficos
+└── index.html    # Archivo principal
